@@ -28,9 +28,9 @@ O pipeline constrói seis DataFrames Spark que formam um star schema usado diret
 |---|---|---|
 | `DIM_TEMPO` | 4 | Uma linha por edição; flag pós-pandemia |
 | `DIM_RENDA` | 15 | Faixas de renda familiar do questionário socioeconômico (Q006) |
-| `DIM_CANDIDATO` | ~centenas | Perfis demográficos únicos (sexo × raça/cor × faixa etária × segmento). |
+| `DIM_CANDIDATO` | ~900 | Perfis demográficos únicos (sexo × raça/cor × faixa etária × segmento). |
 | `DIM_ESCOLA` | ~20 | Combinações únicas de tipo, dependência administrativa e localização |
-| `DIM_LOCALIDADE` | ~5.570 | Municípios de aplicação da prova |
+| `DIM_LOCALIDADE` | ~1.500 | Municípios de aplicação da prova |
 | `FATO_DESEMPENHO` | ~16 M | Uma linha por inscrito/ano; notas, presenças e chaves substitutas |
 
 ---
